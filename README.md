@@ -1,5 +1,10 @@
 # ai-data-transform
 
+[![npm version](https://img.shields.io/npm/v/ai-data-transform.svg)](https://www.npmjs.com/package/ai-data-transform)
+[![npm downloads](https://img.shields.io/npm/dm/ai-data-transform.svg)](https://www.npmjs.com/package/ai-data-transform)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 Generate ETL and data transformation scripts with AI
 
 ## Install
