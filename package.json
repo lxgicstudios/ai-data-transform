@@ -1,6 +1,6 @@
 {
   "name": "ai-data-transform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI-powered data transformer - JSON/CSV conversions and ETL pipelines with GPT",
   "main": "dist/index.js",
   "bin": {

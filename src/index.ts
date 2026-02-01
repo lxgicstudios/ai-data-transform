@@ -2,9 +2,21 @@ import OpenAI from "openai";
 import * as fs from "fs";
 import * as path from "path";
 
-const openai = new OpenAI();
+function getOpenAI(): OpenAI {
+  const apiKey = process.env.OPENAI_API_KEY;
+  if (!apiKey) {
+    console.error(
+      "Missing OPENAI_API_KEY environment variable.\n" +
+      "Get one at https://platform.openai.com/api-keys then:\n" +
+      "  export OPENAI_API_KEY=sk-..."
+    );
+    process.exit(1);
+  }
+  return new OpenAI({ apiKey });
+}
 
 export async function generate(input: string): Promise<string> {
+  const openai = getOpenAI();
   const userContent = `Generate an ETL script for this transformation: ${input}`;
   const response = await openai.chat.completions.create({
     model: "gpt-4o-mini",
