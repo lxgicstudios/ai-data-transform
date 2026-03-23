@@ -40,7 +40,7 @@
   "homepage": "https://github.com/LXGIC-Studios/ai-data-transform#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LXGIC-Studios/ai-data-transform"
+    "url": "git+https://github.com/LXGIC-Studios/ai-data-transform.git"
   },
   "bugs": {
     "url": "https://github.com/LXGIC-Studios/ai-data-transform/issues"
