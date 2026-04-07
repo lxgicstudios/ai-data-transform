@@ -1,5 +1,5 @@
 {
-  "name": "ai-data-transform",
+  "name": "@lxgicstudios/ai-data-transform",
   "version": "1.0.1",
   "description": "AI-powered data transformer - JSON/CSV conversions and ETL pipelines with GPT",
   "main": "dist/index.js",
