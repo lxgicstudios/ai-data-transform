@@ -8,7 +8,7 @@
     "ai-data-transform": "dist/cli.js"
   },
   "bugs": {
-    "url": "https://github.com/LXGIC-Studios/npm-tools/issues"
+    "url": "https://github.com/LXGIC-Studios/ai-data-transform/issues"
   },
   "dependencies": {
     "commander": "^12.1.0",
@@ -31,7 +31,7 @@
     "type": "github",
     "url": "https://github.com/sponsors/LXGIC-Studios"
   },
-  "homepage": "https://github.com/LXGIC-Studios/npm-tools/tree/main/ai-data-transform",
+  "homepage": "https://github.com/LXGIC-Studios/ai-data-transform",
   "keywords": [
     "data-transformation",
     "etl",
@@ -39,7 +39,19 @@
     "csv",
     "json",
     "june-2026-core-update",
-    "technical-seo"
+    "technical-seo",
+    "ai",
+    "anthropic",
+    "automation",
+    "claude",
+    "cli",
+    "copilot",
+    "cursor",
+    "developer-tools",
+    "devtools",
+    "gpt",
+    "npx",
+    "openai"
   ],
   "license": "MIT",
   "main": "dist/index.js",
@@ -50,8 +62,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LXGIC-Studios/npm-tools.git",
-    "directory": "ai-data-transform"
+    "url": "git+https://github.com/LXGIC-Studios/ai-data-transform.git"
   },
   "scripts": {
     "build": "tsc"
