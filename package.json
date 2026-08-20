@@ -47,10 +47,7 @@
     "devtools",
     "etl",
     "gpt",
-    "json",
-    "typescript",
-    "javascript",
-    "nodejs"
+    "json"
   ],
   "license": "MIT",
   "main": "dist/index.js",
